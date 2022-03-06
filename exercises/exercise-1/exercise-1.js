@@ -9,5 +9,5 @@ function introduceYourself(___________________________) {
     `Hello, my name is ${name}. I am ${age} years old and my favourite food is ${favouriteFood}.`
   );
 }
-
+const { name, age, favouriteFood } = personOne;
 introduceYourself(personOne);

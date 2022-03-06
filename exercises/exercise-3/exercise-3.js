@@ -6,3 +6,12 @@ let order = [
   { itemName: "Hot Coffee", quantity: 2, unitPrice: 1.0 },
   { itemName: "Hash Brown", quantity: 4, unitPrice: 0.4 },
 ];
+
+let [HotCakes, ApplePie, EggMcMuffin, SausageMcMuffin, HotCoffee, HashBrown] = order
+console.log("QTY" + "       " + "ITEM" + "                 " + "TOTAL");
+console.log(`${HotCakes.quantity}       ${HotCakes.itemName}              ${HotCakes.unitPrice}`)
+console.log(`${ApplePie.quantity}       ${ApplePie.itemName}              ${ApplePie.unitPrice}`)
+console.log(`${EggMcMuffin.quantity}       ${EggMcMuffin.itemName}           ${EggMcMuffin.unitPrice}`)
+console.log(`${SausageMcMuffin.quantity}       ${SausageMcMuffin.itemName}       ${SausageMcMuffin.unitPrice}`)
+console.log(`${HotCoffee.quantity}       ${HotCoffee.itemName}             ${HotCoffee.unitPrice}`)
+console.log(`${HashBrown.quantity}       ${HashBrown.itemName}             ${HashBrown.unitPrice}`)

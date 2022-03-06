@@ -70,3 +70,7 @@ let hogwarts = [
     occupation: "Teacher",
   },
 ];
+
+let [, , , , , , , , , { firstName, lastName }] = hogwarts
+
+console.log(`Teachers name: ${firstName} ${lastName}`);

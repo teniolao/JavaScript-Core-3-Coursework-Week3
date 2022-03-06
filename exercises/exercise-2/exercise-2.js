@@ -70,7 +70,7 @@ let hogwarts =[
     occupation: "Teacher",
   },
 ];
-xs
+
 function getNames(hogwarts) {
   hogwarts.filter((e) => {
     let { firstName, lastName, house, pet, occupation } = e;

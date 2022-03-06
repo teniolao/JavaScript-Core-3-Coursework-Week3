@@ -1,4 +1,4 @@
-let hogwarts = [
+let hogwarts =[
   {
     firstName: "Harry",
     lastName: "Potter",
@@ -70,7 +70,17 @@ let hogwarts = [
     occupation: "Teacher",
   },
 ];
+xs
+function getNames(hogwarts) {
+  hogwarts.filter((e) => {
+    let { firstName, lastName, house, pet, occupation } = e;
+    if (e.house == "Gryffindor") {
+      console.log(`${firstName} ${lastName}`);
+    }
 
-let [, , , , , , , , , { firstName, lastName }] = hogwarts
-
-console.log(`Teachers name: ${firstName} ${lastName}`);
+    if (e.occupation == "Teacher" && e.pet != null) {
+      console.log(`${firstName} ${lastName}`);
+    }
+  });
+}
+getNames(hogwarts);
